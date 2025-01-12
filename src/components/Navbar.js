@@ -19,6 +19,7 @@ function Navbar() {
           <>
             <li><Link to="/signup">SignUp</Link></li>
             <li><Link to="/login">Login</Link></li>
+            <li><Link to="/chatbox">Chatbox</Link></li>
             <li><Link to="/img">Image</Link></li>
           </>
         ) : (

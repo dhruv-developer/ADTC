@@ -9,6 +9,7 @@ import Profile from "./components/Profile";
 import ProtectedRoute from "./components/ProtectedRoute";
 import Map from "./components/Map";
 import ImageCheck from "./components/ImageCheck";
+import Chatbox from "./components/Chatbot";
 
 
 function App() {
@@ -27,6 +28,12 @@ function App() {
           />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/chatbox" element={
+
+            <Chatbox />
+
+            } />
+
           <Route
             path="/profile"
             element={

@@ -4,7 +4,7 @@ import { auth } from "../firebase";
 import '../App.css'
 
 function Login() {
-  const [email, setEmail] = useState("");
+  const [email, setEmail] = useState(""); //Updates the state immediately
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
 
